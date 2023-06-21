@@ -3,6 +3,10 @@ package specialNumbers;
 import java.util.*;
 
 public class PrimeNumber {
+	/*A prime number (or a prime) is a natural number greater than 1 
+	that is not a product of two smaller natural numbers
+	1 , 2,3,5...
+	*/
 	public static boolean isPrime(int num) {
 		int i=1,count=0;
 		if(num==1||num==2) {

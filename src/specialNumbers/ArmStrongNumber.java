@@ -3,7 +3,10 @@ package specialNumbers;
 import java.util.Scanner;
 
 public class ArmStrongNumber {
-	
+	/* Armstrong number is a number that is
+	 *  equal to the sum of cubes of its digits. 
+	 *  1, 153, 370, 371 and 407
+	 * */
 	public static boolean isArmStrong(int num) {
 		int temp,a=num,arm=0;
 		while(a>0) {
