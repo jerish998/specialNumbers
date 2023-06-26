@@ -20,7 +20,7 @@ public class ArmStrongNumber {
 			return false;
 		}
 	}
-
+//for checking the number
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("enter the number:");
@@ -33,5 +33,18 @@ public class ArmStrongNumber {
 			System.out.println("this is not Armstrong");
 		}
 	}
-
+	
+	//for printing the number in the range
+	
+/*public static void main(String[] args) {
+ System.out.println("Armstrong number in the range of 1 to 500 ");
+ int num =1;
+ while(num<=500){//change the limit "500" to get more number
+ boolean as = isArmStrong(num);
+ if(as==true)
+ System.out.println(num);
+ num++;
+ }
+}
+*/
 }

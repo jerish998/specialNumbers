@@ -24,9 +24,9 @@ public class PrimeNumber {
 			}
 		}
 	}
+	//checking the number is prime or not
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Prime numbers under the ra
 		Scanner obj = new Scanner(System.in);
 		System.out.println("Enetr the number");
 		int num = obj.nextInt();//gets input from user
@@ -37,5 +37,18 @@ public class PrimeNumber {
 			System.out.println("Entered number is not prime");
 		}
 	}
-
+	/*for printing the number in the range */
+	/*
+	public static void main(String[] args) {
+		System.out.println("the Prime number in the range of  o to 500:");
+		int num =1;
+		while(num<500) {
+			boolean auto =isPrime(num);
+			if(auto==true)
+				System.out.println(num);
+				num++;
+		}
+		
+		}
+	*/
 }

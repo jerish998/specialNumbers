@@ -33,7 +33,6 @@ public static boolean isPeterSon(int num) {//checking for peterson numberr
 		return false;
 	
 }
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Enter the number :");
@@ -45,5 +44,4 @@ public static boolean isPeterSon(int num) {//checking for peterson numberr
 		else
 			System.out.println("THe number is NOT peterson");
 	}
-
 }
